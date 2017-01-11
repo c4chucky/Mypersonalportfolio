@@ -1,15 +1,36 @@
-body {
-	background-color: #356d34;
+#header {
+	background-color: #000fee;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/*#left-sidebar {
-	background-color: yellow;
-	height: 100%;
+.navbar-brand {
+	color: white;
+	margin-left: 20pt;
 }
-*/
+
+.page-navigation-button {
+	margin-top: 15pt;
+	margin-bottom: 15pt;
+	color: white;
+}
+
+body {
+	background-color: #6e6e6e;
+}
+
+
 #center-body {
-	background-color: #82A781;
+	background-color: #d5d5d5;
 	height: 100%;
+	padding-top: 30pt;
+	margin-top: 50pt;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#aboutme {
+	background-color: #d5d5d5;
+	
 }
 /*
 #right-sidebar {
@@ -18,8 +39,73 @@ body {
 }-->*/
 
 #myphoto {
-	border-color: green;
+	/*border-color: #000fee;
+	border-width: 2pt;
+	border-style: solid;*/
+	border-radius: 50%;
+	margin-top: 0pt;
+	margin-bottom: 15pt;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#portfolio {
+	background-color: #e6e6e6;
+}
+
+.col-md-6 {
+	margin-bottom: 10pt;
+}
+
+/*.img-thumbnail {
+	height: 100pt;
+}*/
+
+/*#boxshadow {
+    position: relative;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: white;
+}*/
+
+#contact-me {
+	background-color: #d5d5d5;
+}
+
+#footer {
+	background-color: #000fee;
+	padding-bottom: 15pt;
+	color: white;
+}
+
+.social-media-link {
+	border-color: white;
 	border-width: 2pt;
 	border-style: solid;
 	border-radius: 5%;
+	color: white;
+	margin-top: 5pt;
+	margin-right: 5pt;
+	margin-bottom: 5pt;
+	margin-left: 5pt;
 }
+
+#social-media {
+	background-color: #00c5ff;
+	color: white;
+	padding-top: 5pt;
+	padding-bottom: 5pt;
+}
+
+.form-input-field {
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+}
+
+#send-button {
+	margin-top: 15pt;
+	margin-bottom: 15pt;
+}
+
+/* {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}*/
