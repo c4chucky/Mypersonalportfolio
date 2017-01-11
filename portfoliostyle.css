@@ -1,0 +1,25 @@
+body {
+	background-color: #356d34;
+}
+
+/*#left-sidebar {
+	background-color: yellow;
+	height: 100%;
+}
+*/
+#center-body {
+	background-color: #82A781;
+	height: 100%;
+}
+/*
+#right-sidebar {
+	background-color: yellow;
+	height: 100%;
+}-->*/
+
+#myphoto {
+	border-color: green;
+	border-width: 2pt;
+	border-style: solid;
+	border-radius: 5%;
+}
